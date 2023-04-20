@@ -1,0 +1,17 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-left: 5px;
+}
+
+.currency {
+    margin-right: 15px;
+}
+
+.date {
+    flex-wrap: wrap;
+}

@@ -1,0 +1,32 @@
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.myInput {
+  width: 150px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  
+}
+
+.container {
+  background-color: beige;
+  border-radius: 5px;
+  color: rgb(137, 137, 137);
+  text-align: center;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.containerRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
