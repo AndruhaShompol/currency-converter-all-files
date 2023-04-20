@@ -3,6 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBUuyF2QPZPZAYNXfYUyWXw9AQrAGU1kEE",
+  authDomain: "zalupacurrencyconverteryebat.firebaseapp.com",
+  projectId: "zalupacurrencyconverteryebat",
+  storageBucket: "zalupacurrencyconverteryebat.appspot.com",
+  messagingSenderId: "828597338979",
+  appId: "1:828597338979:web:ec62c3907de1a3b72d4956"
+};
+
+const app = initializeApp(firebaseConfig);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
